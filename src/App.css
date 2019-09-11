@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+header {
+  background: #4a90e2;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  min-width: 980px;
+  font-size: 14px;
+}
+
+header img {
+  height: 24px;
+}
+
+header nav > div {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav > div span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+div.PostList {
+  width: 700px;
+  margin: 0 auto 20px;
+}
+
+.Post {
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 20px;
+  line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Post > .headerPost {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.headerPost > div {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Nome {
+  font-weight: bold;
+}
+
+.Data {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.Post > .bodyPost {
+  margin: 15px auto 20px;
+}
+
+.bodyPost > span {
+  margin-left: 0 auto;
+}
+
+.Post > .CommentPost {
+  display: flex;
+}
+
+.contentComment {
+  padding: 10px;
+  display: flex;
+
+  align-items: flex-start;
+}
+
+.contentComment img {
+  margin-right: 2px;
+}
+
+p {
+  border-radius: 20px;
+  background: #eeeeee;
+  margin-left: 10px;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.contentComment span {
+  font-weight: bold;
+  margin-right: 6px;
+}
